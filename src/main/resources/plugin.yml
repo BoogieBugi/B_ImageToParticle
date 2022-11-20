@@ -1,0 +1,17 @@
+name: B_ImageToParticle
+author: BoogieBugi
+description: Make particle shapes by image.
+version: 1.0.0
+api-version: 1.13
+main: com.bugi.b_imagetoparticle.B_ImageToParticle
+
+commands:
+  img2particle:
+    description: Make particle shapes by image.
+    permission: img2particle.use.command
+    permission-message: You don't have permmision to use this command.
+
+permissions:
+  img2particle.use.command:
+    description: Allow to use img2particle command.
+    default: op
