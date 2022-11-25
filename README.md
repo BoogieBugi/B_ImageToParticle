@@ -73,3 +73,10 @@
   ```java
   ImageParticle.spawnParticle(float rotateY, float rotateP, float interval, float size)
   ```
+
+* 파티클 위치 변경 ( setLocation )
+  > 파티클을 생성 위치를 변경합니다.  
+  > Set particle location
+  ```java
+  ImageParticle.setLocation(Location loc)
+  ```
