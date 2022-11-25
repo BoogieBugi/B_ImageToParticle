@@ -52,4 +52,16 @@ public class ImageParticle {
             }
         }
     }
+
+    /**
+     * Set location of particle.
+     *
+     * @param loc Location of particle
+     * @return Previous location
+     */
+    public Location setLocation(Location loc) {
+        Location beforeLoc = this.loc;
+        this.loc = loc;
+        return beforeLoc;
+    }
 }
