@@ -14,9 +14,5 @@ public class B_ImageToParticle extends JavaPlugin implements Listener {
         plugin = this;
 
         getCommand("img2particle").setExecutor(new Img2ParticleCommand());
-
-        ImageLoader.registerImage(this, "img2particle:angel", "angel.png");
-        ImageLoader.registerImage(this, "img2particle:pickaxe", "pickaxe.png");
-        ImageLoader.registerImage(this, "img2particle:heart", "heart.png");
     }
 }
